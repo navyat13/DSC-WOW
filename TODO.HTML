@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/yourcode.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz"
+        crossorigin="anonymous">
+    <title>TODO</title>
+    <style>
+    /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 200px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+/* Style the back side */
+.flip-card-back {
+  background-color: dodgerblue;
+  color: white;
+  transform: rotateY(180deg);
+}
+</style>
+ 
+    
+</head>
+<body>
+    <nav class="mt-3">
+        <div class="logo">
+            <!--<a class="navbar-brand" href="#"><img src="image/5.png" width="100" height="80" class="d-inline-block align-top" alt=""></a>
+        </div>-->
+            <h2>MYSOREಪ್ರವಾಸೋದ್ಯಮ</h2>
+        
+        </div>    
+        
+        <div class="menu">
+            <ul>
+                <li><a href="TODO.html">THINGS TO DO</a></li>
+                <li><a href="food.html">FOOD & DRINK</a></li>
+                <li><a href="https://www.oyorooms.com/hotels-in-mysore/">WHERE TO STAY</a></li>
+                <li><a href="plan.html">PLAN YOUR TRIP</a></li>
+                <li><a class="nav-link" href="https://www.google.com/maps"> <img src="https://png.pngtree.com/element_our/sm/20180526/sm_5b09436fd0515.jpg" width="20" height="20" class="d-inline-block align-top" alt=""> Maps</a></li>
+            </ul>
+        </div>
+    </nav>
+    <header>
+        <div class="top">
+            <div class="top-banner">
+                <div class="top-img">
+                    <img src="image/1.jpg" alt="" width="100%">
+                </div>
+                <div class="banner-text">
+                    <h2>THINGS TO DO</h2>
+                   
+                    
+                </div>
+            </div>
+            
+            
+        </div>
+    </header>
+    
+    <section id="gallery">
+        <div class="container mt-5">
+             <div class="row">
+                 <div class="col-lg-4 mb-4">
+                    <div class="flip-card mt-5">
+                        <div class="flip-card-inner ">
+                          <div class="flip-card-front">
+                            <img src="image/history.jpg" alt="Avatar" style="width:300px;height:300px;">
+                          </div>
+                          <div class="flip-card-back">
+                            <h1>History</h1>
+                            <p>History Of MYSORE</p>
+                            <button><a href="https://www.jagranjosh.com/general-knowledge/history-of-mysore-state-1442911545-1" >LEARN MORE</a></button>
+                          </div>
+                        </div>
+                      </div>
+                 </div>
+                
+                 <div class="col-lg-4  mb-4">
+                    <div class="flip-card mt-5">
+                        <div class="flip-card-inner">
+                          <div class="flip-card-front">
+                            <img src="image/temple.jpeg" alt="Avatar" style="width:300px;height:300px;">
+                          </div>
+                          <div class="flip-card-back">
+                            <h1>Temple</h1>
+                            <p>Famous Temple In Mysore</p>
+                            <button><a href="https://www.oyorooms.com/travel-guide/best-temples-to-visit-in-mysore/" >LEARN MORE</a></button>
+                          </div>
+                        </div>
+                      </div>
+                 </div>
+                 <div class="col-lg-4  mb-4">
+                    <div class="flip-card mt-5">
+                        <div class="flip-card-inner">
+                          <div class="flip-card-front">
+                            <img src="image/festival.jpeg" alt="Avatar" style="width:300px;height:300px;">
+                          </div>
+                          <div class="flip-card-back">
+                            <h1>Festival</h1>
+                            <p>Famous Festival Of Mysore</p>
+                            <button><a href="https://www.tourmyindia.com/genral_information/fair_festival/mysore-dussehra.html" >LEARN MORE</a></button>
+                          </div>
+                        </div>
+                      </div>
+                 </div>
+             </div>
+        </div>
+     
+        <div class="container mt-5">
+             <div class="row">
+                 <div class="col-lg-4 mb-4">
+                    <div class="flip-card mt-5">
+                        <div class="flip-card-inner">
+                          <div class="flip-card-front">
+                            <img src="image/zoo.jpeg" alt="Avatar" style="width:300px;height:300px;">
+                          </div>
+                          <div class="flip-card-back">
+                            <h1>Wildlife</h1>
+                            <p>Wildlife IN MYSORE</p>
+                            <button><a href="https://www.yatrablog.com/wildlife-experience-in-and-around-mysore" >LEARN MORE</a></button>
+                          </div>
+                        </div>
+                      </div>
+                 </div>
+                 <div class="col-lg-4  mb-4">
+                    <div class="flip-card mt-5">
+                        <div class="flip-card-inner">
+                          <div class="flip-card-front">
+                            <img src="image/church.jpeg" alt="Avatar" style="width:300px;height:300px;">
+                          </div>
+                          <div class="flip-card-back">
+                            <h1>Church</h1>
+                            <p>Famous churches of Mysore</p>
+                            <button><a href="https://stylesatlife.com/articles/churches-in-mysore/">LEARN MORE</a></button>
+                          </div>
+                        </div>
+                      </div>
+                 </div>
+                 <div class="col-lg-4  mb-4">
+                    <div class="flip-card mt-5">
+                        <div class="flip-card-inner">
+                          <div class="flip-card-front">
+                            <img src="image/artform.jpeg" alt="Avatar" style="width:300px;height:300px;">
+                          </div>
+                          <div class="flip-card-back">
+                            <h1>Artform</h1>
+                            <p>Art of Mysore</p>
+                            <button><a href="https://www.yatrablog.com/folk-arts-of-mysore" >LEARN MORE</a></button>
+                          </div>
+                        </div>
+                      </div>
+                 </div>
+             </div>
+        </div>
+     
+        <div class="container mt-5">
+             <div class="row">
+                 <div class="col-lg-4 mb-4">
+                    <div class="flip-card mt-5">
+                        <div class="flip-card-inner">
+                          <div class="flip-card-front">
+                            <img src="image/2.jpg" alt="Avatar" style="width:300px;height:300px;">
+                          </div>
+                          <div class="flip-card-back">
+                            <h1>Waterfall</h1>
+                            <p>Famous Tourist Places</p>
+                            <button href="https://www.fabhotels.com/blog/waterfalls-near-mysore/" >LEARN MORE</button>
+                          </div>
+                        </div>
+                      </div>
+                 </div>
+                 <div class="col-lg-4  mb-4">
+                    <div class="flip-card mt-5">
+                        <div class="flip-card-inner">
+                          <div class="flip-card-front">
+                            <img src="image/1.jpg" alt="Avatar" style="width:300px;height:300px;">
+                          </div>
+                          <div class="flip-card-back">
+                            <h1>Historical</h1>
+                            <p>Historical places of Mysore</p>
+                            <button><a href="https://timesofindia.indiatimes.com/travel/Mysore/Clock-Tower/ps51222546.cms" >LEARN MORE</a></button>
+                          </div>
+                        </div>
+                      </div>
+                 </div>
+                 <div class="col-lg-4  mb-4">
+                    <div class="flip-card mt-5">
+                        <div class="flip-card-inner">
+                          <div class="flip-card-front">
+                            <img src="image/sweet.jpeg" alt="Avatar" style="width:300px;height:300px;">
+                          </div>
+                          <div class="flip-card-back">
+                            <h1>CUISINE</h1>
+                            <p>Popular Cuisine of Mysore</p>
+                            <button><a href="https://timesofindia.indiatimes.com/travel/mysore/travel-guide/10-things-to-eat-and-drink-in-mysore/amp_guideshow/52243775.cms" >LEARN MORE</a></button>
+                          </div>
+                        </div>
+                      </div>
+                 </div>
+             </div>
+        </div>
+     </section>
+    </body>
+    </html>
+    
+ 
